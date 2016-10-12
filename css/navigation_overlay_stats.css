@@ -1,0 +1,23 @@
+/*#NAV_STATS_BACKGROUND{position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(214, 206, 205,0.8);z-index:100;}*/
+body{margin:0;}
+#NAV_STATS_CONTAINER{position:fixed;bottom:0;height:75px;width:100%;background-color:#f4f4f4;margin:0;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;/*padding:5px;*/
+	-webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    -webkit-box-shadow: 0 -5px 5px -5px #333;
+    -moz-box-shadow: 0 -5px 5px -5px #333;
+    box-shadow: 0 -5px 5px -5px #333;
+	color:#3e3e3e;
+}
+#NAV_STATS_CONTAINER #NAV_FILTERS_CONTAINER,#NAV_STATS_CONTAINER #NAV_VISIT_CONTAINER{display:inline-block;padding:5px 15px 5px 15px;}
+
+#NAV_STATS_CONTAINER #NAV_FILTERS_CONTAINER{width:20%;}
+#NAV_STATS_CONTAINER #NAV_VISIT_CONTAINER{width:65%;}
+#NAV_STATS_CONTAINER #NAV_VISIT_CONTAINER p{margin:0;text-align:center;}
+#NAV_STATS_CONTAINER #NAV_VISIT_CONTAINER p b{color:#104889;}
+#NAV_STATS_CONTAINER #NAV_VISIT_CONTAINER .NAV_P_VISIT {}
+
+.NAV_SEPARATOR{display:inline-block;height:100%;border-left:1px solid #000;margin-left:40px;margin-right:40px;}
